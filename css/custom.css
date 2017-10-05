@@ -1,0 +1,55 @@
+/********************
+THIS IS ME NOT FIGURING OUT THE NAV IN BOOTSTRAP TO NOT WRAP
+***********************/
+
+a {
+  color: white;
+}
+
+a:active,
+a:hover {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.btn-group a:hover {
+  text-decoration-color: none;
+}
+
+nav ul li {
+  margin-right: -10px;
+  padding: 0;
+}
+
+.nav-link {
+  padding: 10px 14px;
+}
+
+@media (min-width: 600px) {
+
+  .nav-link {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    margin: 0 auto;
+  }
+}
+
+
+
+/********************
+OTHER CSS NEEDED
+***********************/
+
+.jumbotron {
+  background: url('../img/jumbo-bg.jpg');
+  background-size: cover;
+
+}
+
+.btn-light {
+  font-size: 2rem;
+}
